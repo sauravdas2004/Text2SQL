@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: Inter, Arial, sans-serif;
+  color: white;
+  background:
+    radial-gradient(circle at top left, rgba(59,130,246,0.18), transparent 35%),
+    radial-gradient(circle at top right, rgba(168,85,247,0.18), transparent 35%),
+    linear-gradient(180deg, #09090b 0%, #111827 100%);
+  background-attachment: fixed;
+}
